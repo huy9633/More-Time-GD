@@ -1,0 +1,600 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/x-icon" href="./favicon.ico">
+    <title>More-Time</title>
+    <link rel="stylesheet" href="./fontawesome-free-6.0.0-web/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="./jquery-3.6.0.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+</head>
+<body>
+    <div class="content">
+        <div class="content-index">
+         <div class="header">
+             
+             <div class="grid"> 
+                 <div class="head">
+                     <div class="head-icon">
+                         <a href="#" class="abc" ><img src="./logomt1.png" alt="background-image"></a>
+                         
+                     </div>
+                     
+                     <div class="head-search">
+                         <input type="text" placeholder="Search" class="search-input">
+                         <div class="find">
+                             <i class="fa-solid fa-magnifying-glass"></i>
+                         </div>
+                     </div>
+                     <div class="nav">
+                         <ul>
+                             <li class="nav-item">
+                                 <a href="#" id="liveAlertBtn">    
+                                     Các khóa học
+                                 </a>
+                             </li>
+                             <li class="nav-item head-discover" >
+                                 <a href="#" id="liveAlertBtn1">
+                                     <div class="head-discover_img" style="margin-right: -10px;">
+                                         <img src="https://kt.city/static/img-menu-square.png" alt="">
+                                     </div>
+                                     <div class="head-discover_conten">
+                                         <span>Khám phá</span>
+                                     </div>
+                                 </a>
+                                     <ul class="list-discover">
+                                         <li>
+                                             <div class="list-1" id="liveAlertBtn2"><a href="#"><i class="fa-solid fa-bars"></i>
+                                                 Danh mục</a></div></li>
+                                         <li>
+                                             <div class="list-2" id="liveAlertBtn3"><a href="#" ><i class="fa-solid fa-clock-rotate-left"></i>
+                                                 Sắp ra mắt</a></div></li>
+                                         <li ><div class="list-3" id="liveAlertBtn4"><a href="#" ><i class="fa-solid fa-fire-flame-curved"></i>
+                                             Trending</a></div></li>
+                                     </ul>
+                             </li>
+                             <li class="nav-item head-support">
+                                <a href="#" id="liveAlertBtn5">
+                                    Hỗ trợ
+                                </a>
+                             </li>
+                             <li class="nav-item head-login">
+                                 <div class="head-login_conten" id="liveAlertBtn6">
+                                     <a style="color: #2979ff;" href="#">Đăng nhập</a>
+                                 </div>
+                             </li>
+                             <li class="nav-item head-avatar" id="liveAlertBtn7">
+                                 <img src="https://kt.city/static/avatar/avatar5.jpg" alt="avatar">
+                             </li>
+                         </ul>
+                     </div>
+                 </div>
+             </div>
+         </div>
+         <div class="alert alert-success alert-dismissible" style="width: 1440px" role="alert"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:" >
+             <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+           </svg>Hệ thống sẽ thông báo ở đây mọi người chú ý nhé!<button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button></div>
+         <div id="liveAlertPlaceholder"></div>
+         <div class="body">
+             <div class="slick-slider" dir="ltr" >
+                 <div class="slick-list1">
+                     <div class="slick-track1">
+                        <input type="radio" name="radio-btn" id="radio1">
+                        <input type="radio" name="radio-btn" id="radio2">
+                        <input type="radio" name="radio-btn" id="radio3">
+
+                         <div class="myslide fade2 " >
+                             <a href="#">
+                                 <img src="https://codingui.dev/images/html-css-course.jpg" class="imgslide" >
+                             </a>
+                         </div>
+                         <div class="myslide " >
+                            <a href="#">
+                                <img src="https://kt.city/_next/image?url=https%3A%2F%2Fstatic.kt.city%2Fslider%2Fevondevbannerhomepage2x-1625192140875.png&w=1920&q=100" class="imgslide" >
+                            </a>
+                        </div>
+                        <div class="myslide "  >
+                            <a href="#">
+                                <img src="https://static.kt.city/cjxtrhjqs00we098574enz0ng/reactjs-course-cover-1640655350243.jpg" class="imgslide" >
+                            </a>
+                        </div>
+                        
+                        <div class="navigation-auto">
+                            <div class="auto-btn1"></div>
+                            <div class="auto-btn2"></div>
+                            <div class="auto-btn3"></div>
+                        </div>
+
+                        
+                     </div>
+                     <div class="navigation-manual">
+                        <label for="radio1" class="manual-btn"></label>
+                        <label for="radio2" class="manual-btn"></label>
+                        <label for="radio3" class="manual-btn"></label>
+                        
+                      </div>
+                 </div>
+             </div>
+         </div>
+         <div class="body-extra">
+             <div class="bdet-container">
+                <h2 class="bdet-f">Khóa học lập trình online hoàn toàn miễn phí được thành lập vào năm 2022 của nhóm More-Time </h2>
+                <div class="bdet-s">
+                    <div class="bdet-s1">
+                        <div class="bdet-s2">
+                            <div class="bdet-item">
+                                <div class="bdet-ava1"></div>
+                                    <img src="./AVA/127150786_1257572144624989_5009801795000481595_n.jpg" class="bdet-ava" >
+                                    <h4 class="bdet-cv" >Nhóm Trưởng</h4>
+                                    <h3 class="bdet-ht" >Nguyễn Đạt Minh</h3>
+                                    <div class="linktv">
+                                        <a href="https://www.facebook.com/profile.php?id=100011166468145" class="fa fa-facebook" ></a>
+                                        <a href="https://github.com/deadwishmen" class="fa fa-github" ></a> 
+                                        <a href="https://www.instagram.com/nguyenminhdeath/" class="fa fa-instagram" ></a>
+                                    </div>
+                                    
+                            </div>
+                            <div class="bdet-item">
+                                <div class="bdet-ava1"></div>
+                                    <img src="./AVA/Dương.jpg" class="bdet-ava" >
+                                    <h4 class="bdet-cv" >Nhóm Phó</h4>
+                                    <h3 class="bdet-ht" >Nguyễn Hữu Minh Dương</h3>
+                                    <div class="linktv">
+                                        <a href="https://www.facebook.com/minhduong180702/" class="fa fa-facebook" ></a>
+                                        <a href="https://github.com/duongk46" class="fa fa-github" ></a> 
+                                        <a href="https://www.instagram.com/minhduong180702/" class="fa fa-instagram" ></a>
+                                    </div>
+                            </div>
+                            <div class="bdet-item">
+                                <div class="bdet-ava1"></div>
+                                    <img src="./AVA/Thịnh.jpg" class="bdet-ava" >
+                                    <h4 class="bdet-cv" >Thành viên</h4>
+                                    <h3 class="bdet-ht" >Nguyễn Phước Thịnh</h3>
+                                    <div class="linktv">
+                                        <a href="https://www.facebook.com/npt106" class="fa fa-facebook" ></a>
+                                        <a href="https://www.instagram.com/pthinh.06/" class="fa fa-github" ></a> 
+                                        <a href="https://github.com/pthinh106" class="fa fa-instagram" ></a>
+                                    </div>
+                            </div>
+                            <div class="bdet-item">
+                                <div class="bdet-ava1"></div>
+                                    <img src="./AVA/Phong.jpg" class="bdet-ava" >
+                                    <h4 class="bdet-cv" >Thành viên</h4>
+                                    <h3 class="bdet-ht" > Huỳnh Đăng Phong </h3>
+                                    <div class="linktv">
+                                        <a href="https://www.facebook.com/profile.php?id=100009458695697" class="fa fa-facebook" ></a>
+                                        <a href="https://www.instagram.com/hdp_24_08/" class="fa fa-github" ></a> 
+                                        <a href="#" class="fa fa-instagram" ></a>
+                                    </div>
+                            </div>
+                            <div class="bdet-item">
+                                <div class="bdet-ava1"></div>
+                                    <img src="./AVA/274858552_355740186445070_4790345538869012356_n.png" class="bdet-ava" >
+                                    <h4 class="bdet-cv" >Thành viên</h4>
+                                    <h3 class="bdet-ht" >Lâm Chấn Huy</h3>
+                                    <div class="linktv">
+                                        <a href="https://www.facebook.com/chanhuy.lam.9619/" class="fa fa-facebook" ></a>
+                                        <a href="https://github.com/huy9633" class="fa fa-github" ></a> 
+                                        <a href="https://www.instagram.com/chanhuy.lam518/" class="fa fa-instagram" ></a>
+                                    </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+                <div class="bdet-t">
+                    <p class="bdet-text">Và nhiều expert hàng đầu khác, luôn cập nhật nội dung hàng tháng</p>
+                </div>
+             </div>
+         </div>
+         <div class="main-content">
+             <div class="main-content_abc">
+                 <h2 class="main-content_text" >
+                    <i class="fa-solid fa-book"></i>
+                     Các khóa học
+                 </h2>
+                 <div class="main-content_slide">
+                     <a href="" class="main-c-slide" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://codingui.dev/images/html-css-course.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                    Khóa học HTML/CSS cơ bản dành cho người mới bắt đầu
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt" >Mới</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                     </a>
+                     <a href="" class="main-c-slide" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://kt.city/_next/image?url=https%3A%2F%2Fstatic.kt.city%2Fslider%2Fevondevbannerhomepage2x-1625192140875.png&w=1920&q=100" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                    Khóa học Javascript cơ bản dành cho người mới bắt đầu
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt" >Mới</span>
+                                        </div>
+                                    </div>
+                                </div>
+
+                            </div>
+                        </div>
+                     </a>
+                     <a href="" class="main-c-slide" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://static.kt.city/cjxtrhjqs00we098574enz0ng/reactjs-course-cover-1640655350243.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                    Khóa học ReacJS với kiến thức cơ bản và hiệu quả dành cho những người mới bắt đầu
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt" >Mới</span>
+                                        </div>
+                                    </div>
+                                </div>
+    
+                            </div>
+                        </div>
+                     </a>
+                 </div>
+                 
+             </div>
+             <div class="main-content_abc">
+                <h2 class="main-content_text" >
+                    <i class="fa-solid fa-clock-rotate-left"></i>
+                    Sắp ra mắt
+                </h2>
+                <div class="main-content_slide">
+                    <a href="#" class="main-c-slide" >
+                       <div class="main-c-slide1">
+                           <div class="main-c-slide1_t">
+                               <img src="https://files.fullstack.edu.vn/f8-prod/courses/6.png" class="img-ms">
+                           </div>
+                           <div class="main-c-slide1_b">
+                               <h3 class="main-c-slide1-text">
+                                  Học Back-end với khóa học Node & ExpressJS dành cho người mới
+                               </h3>
+                               <div class="main-c-slide1-icon">
+                                   <div class="main-c-icon">
+                                       <img src="./logomt2.png" class="icon-main" >
+                                       <span class="text-main" >More-Time</span>
+                                   </div>
+                                   <div class=".main-c-bt0">
+                                       <div class=".main-c-bt">
+                                           <span class="img-main-c-bt1" >Sắp ra mắt</span>
+                                       </div>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+                    </a>
+                </div>
+            </div>  
+            <div class="main-content_abc">
+                <h2 class="main-content_text" >
+                    <i class="fa-solid fa-book-open"></i>
+                    Dự kiến thêm các khóa học mới
+                </h2>
+                <div class="main-content_slide">
+                    <div class="main-c-slide" id="main-c1" >
+                       <div class="main-c-slide1">
+                           <div class="main-c-slide1_t">
+                               <img src="https://1.bp.blogspot.com/-vAk6OJVFjQM/YKsmEu57oXI/AAAAAAAABB0/uyzAsOF__PEjG3ASQCM8VO9jNTzL6Ow5gCNcBGAsYHQ/w400-h250/c-uses-and-applications-2x-12.png" class="img-ms">
+                           </div>
+                           <div class="main-c-slide1_b">
+                               <h3 class="main-c-slide1-text">
+                                  Khóa học C++ từ cơ bản tới nâng cao cho người bước vào ngành lập trình
+                               </h3>
+                               <div class="main-c-slide1-icon">
+                                   <div class="main-c-icon">
+                                       <img src="./logomt2.png" class="icon-main" >
+                                       <span class="text-main" >More-Time</span>
+                                   </div>
+                                   <div class=".main-c-bt0">
+                                       <div class=".main-c-bt">
+                                           <span class="img-main-c-bt2" >Dự kiến</span>
+                                       </div>
+                                   </div>
+                               </div>
+
+                           </div>
+                       </div>
+                    </div>
+                    <div  class="main-c-slide" id="main-c2" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://thuviensachmoi.files.wordpress.com/2018/12/31742-lap-trinh-ngon-ngu-c-2523.jpg?w=600&h=435&zoom=2" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học C# từ cơ bản tới nâng cao 
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div class="main-c-slide" id="main-c3" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://www.devpro.edu.vn/public/uploads/images/l%E1%BA%ADp%20tr%C3%ACnh%20c/l%E1%BA%ADp%20tr%C3%ACnh%20c%202/khoa-hoc-lap-trinh-c.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học C từ cơ bản tới nâng cao cho người bước vào ngành lập trình
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div  class="main-c-slide" id="main-c4" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://1.bp.blogspot.com/-Gc25-xK8Bx8/YUyLgAssusI/AAAAAAAAI0c/DaQEnv4kxegHgEoF0ms_PUEHCHhVT0K4gCLcBGAsYHQ/w0/python_learning.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học Python từ cơ bản tới nâng cao cho người mới bắt đầu
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div class="main-c-slide"id="main-c5" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://csc.edu.vn/data/images/mon-hoc/lap-trinh/lap-trinh-vien-java-2.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học Java cơ bản cho người mới bắt đầu
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div  class="main-c-slide" id="main-c6" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://letdiv.com/wp-content/uploads/2021/06/php-course.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Trở thành lập trình FullStack với khóa học PHP từ cơ bản tới nâng cao
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div  class="main-c-slide" id="main-c7" style="display: none;" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://laptrinhviet.edu.vn/wp-content/uploads/2020/11/khoa-hoc-lap-trinh-android.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học lập trình Android cơ bản
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div class="main-c-slide" id="main-c8" style="display: none;" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://braniumacademy.net/wp-content/uploads/2021/11/cpp-background.webp" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học Cấu trúc dữ liệu và giải thuật sử dụng ngôn ngữ C++ 
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                    </div>
+                     <div class="main-c-slide" id="main-c9" style="display: none;" >
+                        <div class="main-c-slide1">
+                            <div class="main-c-slide1_t">
+                                <img src="https://dangkyduhoc.vn/wp-content/uploads/2021/04/52351011-english-british-england-language-education-concept.jpg" class="img-ms">
+                            </div>
+                            <div class="main-c-slide1_b">
+                                <h3 class="main-c-slide1-text">
+                                   Khóa học Ngôn ngữ tiếng Anh nhằm cải thiện ngôn ngữ cho người học
+                                </h3>
+                                <div class="main-c-slide1-icon">
+                                    <div class="main-c-icon">
+                                        <img src="./logomt2.png" class="icon-main" >
+                                        <span class="text-main" >More-Time</span>
+                                    </div>
+                                    <div class=".main-c-bt0">
+                                        <div class=".main-c-bt">
+                                            <span class="img-main-c-bt2" >Dự kiến</span>
+                                        </div>
+                                    </div>
+                                </div>
+ 
+                            </div>
+                        </div>
+                     </div> 
+                </div>
+                <div class="text-center" id="click-button">
+                    <button class="recommend-more">
+                        Xem thêm Khóa học dự kiến
+                    </button>
+                </div>
+            </div>
+         </div>
+         <div class="footermt">
+             <footer class="footer1" >
+                 <div class="footer1-t">
+                     <div class="footer1-t-item">
+                         <a href="#" class="a-extra">
+                            <img src="./logomt1.png" alt="More-Time" class="img-extra" >
+                         </a>
+                         <p class="footer1-t-text" >Email: moretime@gmail.com</p>
+                         <p class="footer1-t-text" >Hotline: 0395033952</p>
+                         <p class="footer1-t-text" >Giờ hoạt động từ 8h30-17h từ thứ 2 tới thứ 7</p>
+                     </div>
+                     <div class="footer1-t-item">
+                        <h4 class="footer1-t-textbold" >Địa chỉ</h4>
+                        <p class="footer1-t-text" >280 An Dương Vương, Phường 4, Quận 5, TPHCM</p>
+                    </div>
+                    <div class="footer1-t-item">
+                            <h4 class="footer1-t-textbold" >Hướng dẫn</h4>
+                            <p class="footer1-t-text" id="footer1-t-bt1" >More-Time 101</p>
+                            <p class="footer1-t-text" id="footer1-t-bt2" >Giới thiệu</p>
+                            <p class="footer1-t-text" id="footer1-t-bt3" >Quy chế hoạt động</p>
+                        
+                    </div>
+                    <div class="footer1-t-item">
+                        
+                            <h4 class="footer1-t-textbold" >Liên kết</h4>
+                            <div class="link123">
+                                <a href="" class="footer1-t-linkgr" >
+                                    <i class="fa fa-facebook-f"></i>
+                                </a>
+                                <a href="" class="footer1-t-linkgr" >
+                                    <i class="fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="" class="footer1-t-linkgr" >
+                                    <i class="fa-brands fa-telegram"></i>
+                                </a>
+                            </div>
+                    </div>
+                 </div>
+                 <div class="footer1-b">
+                    Copyright: ©2022 More-Time. All rights reserved.
+                 </div>
+             </footer>
+         </div>
+    </div>
+</div>
+         <script
+           type="text/javascript"
+           src="https://code.jquery.com/jquery-1.11.0.min.js"
+         ></script>
+         <script
+           type="text/javascript"
+           src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"
+         ></script>
+         <script
+           type="text/javascript"
+           src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+         ></script>
+         <script src="./GD.js" ></script>
+         <script src="https://cdnjs.cloudflare.com/ajax/libs/vanilla-tilt/1.7.0/vanilla-tilt.min.js"></script>
+</body>
+</html>
