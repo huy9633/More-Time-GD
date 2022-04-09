@@ -6,7 +6,7 @@ var alertTrigger3 = document.getElementById('liveAlertBtn3')
 var alertTrigger4 = document.getElementById('liveAlertBtn4')
 var alertTrigger5 = document.getElementById('liveAlertBtn5')
 var alertTrigger6 = document.getElementById('liveAlertBtn6')
-var alertTrigger7 = document.getElementById('liveAlertBtn7')
+// var alertTrigger7 = document.getElementById('liveAlertBtn7')
 var alertTrigger8 = document.getElementById('liveAlertBtn8')
 var alertTrigger9 = document.getElementById('liveAlertBtn9')
 var alertTrigger10 = document.getElementById('liveAlertBtn10')
@@ -52,11 +52,11 @@ if (alertTrigger6) {
       alert1('Hệ thống đang cập nhật !', 'success')
     })
 }
-if (alertTrigger7) {
-    alertTrigger7.addEventListener('click', function () {
-      alert1('Hệ thống đang cập nhật !', 'success')
-    })
-}
+// if (alertTrigger7) {
+//     alertTrigger7.addEventListener('click', function () {
+//       alert1('Hệ thống đang cập nhật !', 'success')
+//     })
+// }
 if (alertTrigger8) {
     alertTrigger8.addEventListener('click', function () {
       alert1('Hệ thống đang cập nhật !', 'success')
@@ -115,47 +115,83 @@ var thongbao9 = document.getElementById('main-c9')
 
 if (thongbao1) {
   thongbao1.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao2) {
   thongbao2.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao3) {
   thongbao3.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao4) {
   thongbao4.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao5) {
   thongbao5.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao6) {
   thongbao6.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao7) {
   thongbao7.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao8) {
   thongbao8.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 if (thongbao9) {
   thongbao9.addEventListener('click', function () {
-    alert("Đây chỉ là dự kiến, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đây chỉ là dự kiến!',
+      'Mời bạn quay lại sau ^_^ !',
+      'warning'
+    )
   })
 }
 //xemthem
@@ -189,16 +225,88 @@ var baotri3 = document.getElementById('footer1-t-bt3')
 
 if (baotri1) {
   baotri1.addEventListener('click', function () {
-    alert("Đang bảo trì, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đang bảo trì!',
+      'Mời bạn quay lại sau ^_^ !',
+      'error'
+    )
   })
 }
 if (baotri2) {
   baotri2.addEventListener('click', function () {
-    alert("Đang bảo trì, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đang bảo trì!',
+      'Mời bạn quay lại sau ^_^ !',
+      'error'
+    )
   })
 }
 if (baotri3) {
   baotri3.addEventListener('click', function () {
-    alert("Đang bảo trì, mời bạn quay lại sau ^_^!");
+    swal(
+      'Đang bảo trì!',
+      'Mời bạn quay lại sau ^_^ !',
+      'error'
+    )
   })
+}
+
+/// Fake Sale Notication 
+   
+        var r_text = new Array ();
+r_text[0] = "Javascript";
+r_text[1] = "ReacJS";
+r_text[2] = "HTML/CSS";
+
+
+
+    var r_map = new Array ();
+r_map[0] = "https://kt.city/_next/image?url=https%3A%2F%2Fstatic.kt.city%2Fcjxtrhjqs00we098574enz0ng%2Fbanner-khoa-hoc-js-ver2-1622631616496.jpg&w=384&q=100";
+r_map[1] = "https://static.kt.city/cjxtrhjqs00we098574enz0ng/reactjs-course-cover-1640655350243.jpg";
+r_map[2] = "https://codingui.dev/images/html-css-course.jpg";
+
+var link_qc = new Array ();
+link_qc[0] = "https://www.youtube.com/watch?v=JEYHf6Oq_Mo"
+link_qc[1] = "https://elfsight.com/popup-widget/recent-sales-template/"
+link_qc[2] = "https://kt.city/"
+ 
+var r_product = new Array ();
+r_product[0] = "purchased item 1";
+r_product[1] = "purchased item 2";
+r_product[2] = "purchased item 3 Hosting";
+
+     setInterval(function(){ $(".fake-sale").stop().slideToggle('slow'); }, 6000);
+      $(".fs-close").click(function() {
+        $(".fake-sale").stop().slideToggle('slow');
+      });
+      setInterval(function(){    
+        var myNumber = Math.floor(3*Math.random());
+        $("#map1").attr("src",r_map[myNumber]);
+ 			  $('#country').text(r_text[myNumber]);
+        $('#linkqc').attr("href",link_qc[myNumber])
+      $('#product').text(r_product[Math.floor(3*Math.random())]);
+ 			var timeVal = Math.floor(3*Math.random());
+ 	
+ 			$('#time').text(timeVal);
+ 		
+ 		 
+     //console.log(timeVal); 
+ }, 13000);
+//doi ava
+var doiava = document.getElementById('doianh');
+var doi_anh = new Array ();
+doi_anh[0] = "https://kt.city/static/avatar/avatar5.jpg"
+doi_anh[1] = "https://kt.city/static/avatar/avatar6.jpg"
+doi_anh[2] = "https://kt.city/static/avatar/avatar9.jpg"
+doi_anh[3] = "https://kt.city/static/avatar/avatar11.jpg"
+doi_anh[4] = "https://kt.city/static/avatar/avatar2.jpg"
+doi_anh[5] = "https://kt.city/static/avatar/avatar12.jpg"
+doi_anh[6] = "https://kt.city/static/avatar/avatar1.jpg"
+doi_anh[7] = "https://kt.city/static/avatar/avatar3.jpg"
+
+if (doiava) {
+    doiava.addEventListener('click', function () {
+      var sttrandom = Math.floor(Math.random() * 8);
+      $("#doianh").attr("src",doi_anh[sttrandom]);
+    })
 }
