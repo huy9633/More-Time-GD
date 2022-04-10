@@ -1259,7 +1259,7 @@ a{
         
     }
     .alert-dismissible{
-        max-width: 100%;
+        width: 100%;
     }
     .list-1,.list-2{
         border-right: 1.5px solid #b1cdfc;
