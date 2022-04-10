@@ -306,12 +306,12 @@ ul{
 }
 @media screen and (max-width:400px) {
     .body{
-        width: 390px;
+        width: 350px;
         height: 180px;
     }
     .slick-slider{
         position: relative;
-        width: 390px;
+        width: 350px;
         height: 180px;
     }
     .slick-list1{
@@ -333,7 +333,7 @@ ul{
         margin: 0;
     }
     .imgslide{
-        width: 390px;
+        width: 350px;
         height: 180px;
     }
     
