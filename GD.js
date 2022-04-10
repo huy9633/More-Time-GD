@@ -273,7 +273,7 @@ link_qc[2] = "https://kt.city/"
 var r_product = new Array ();
 r_product[0] = "purchased item 1";
 r_product[1] = "purchased item 2";
-r_product[2] = "purchased item 3 Hosting";
+r_product[2] = "purchased item 3 Hosting"; 
 
      setInterval(function(){ $(".fake-sale").stop().slideToggle('slow'); }, 6000);
       $(".fs-close").click(function() {
