@@ -91,6 +91,7 @@ ul{
     border-radius: 12px;
     border: none;
     margin-bottom: 50px;
+    transition: all 0.5s ease 0s;
 }
 .nav-item a{
     display: flex;
