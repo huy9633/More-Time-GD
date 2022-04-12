@@ -1563,4 +1563,7 @@ a{
     .footer1-t{
         display: block;
     }
+    .fs-b-content{
+        font-size: 10px;
+    }
 }
