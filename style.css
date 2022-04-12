@@ -1543,4 +1543,9 @@ a{
     .fake-sale{
         display: none;
     }
+    /* /////////////////
+     */
+     .main-content_slide{
+         display: block;
+     }
 }
