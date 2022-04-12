@@ -989,13 +989,7 @@ a{
 .fs-close:hover{
     opacity: 1;
 }
-.swal2-icon.swal2-warning{
-    font-size: 60px;
-}
-.swal2-icon {
-    width: 80px;
-    height: 80px;
-}
+
 @media screen and (max-width:500px) {
     
     .grid{
