@@ -81,6 +81,7 @@ if (alertTrigger11) {
 //slideshow
 
 
+
 var counter = 1;
     setInterval(function(){
       document.getElementById('radio' + counter).checked = true;
@@ -118,7 +119,7 @@ if (thongbao1) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -127,7 +128,7 @@ if (thongbao2) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -136,7 +137,7 @@ if (thongbao3) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -145,7 +146,7 @@ if (thongbao4) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -154,7 +155,7 @@ if (thongbao5) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -163,7 +164,7 @@ if (thongbao6) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -172,7 +173,7 @@ if (thongbao7) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -181,7 +182,7 @@ if (thongbao8) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -190,7 +191,7 @@ if (thongbao9) {
     swal(
       'Đây chỉ là dự kiến!',
       'Mời bạn quay lại sau ^_^ !',
-      'warning'
+      'error'
     )
   })
 }
@@ -273,7 +274,7 @@ link_qc[2] = "https://kt.city/"
 var r_product = new Array ();
 r_product[0] = "purchased item 1";
 r_product[1] = "purchased item 2";
-r_product[2] = "purchased item 3 Hosting"; 
+r_product[2] = "purchased item 3 Hosting";
 
      setInterval(function(){ $(".fake-sale").stop().slideToggle('slow'); }, 6000);
       $(".fs-close").click(function() {
