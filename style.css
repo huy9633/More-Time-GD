@@ -1551,10 +1551,16 @@ a{
      .alert-dismissible {
         max-width: 100%;
     }
-    .footer1-t-text{
+    /* .footer1-t-text{
         font-size: 5px;
     }
     .footer1-t-textbold{
         font-size: 6px;
+    } */
+    .footer1-t-item{
+        width: 100%;
+    }
+    .footer1-t{
+        display: block;
     }
 }
