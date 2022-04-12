@@ -1510,7 +1510,7 @@ a{
           width: 40px;
           height: 40px;
           position: absolute;
-          top: 30%;
+          top: 45%;
           right: 0;
           transform: translateY(-50%);
           background-color: #2979ff;
@@ -1569,5 +1569,6 @@ a{
     }
     .fake-sale{
         width: 100%;
+        left: 0;
     }
 }
