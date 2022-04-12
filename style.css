@@ -989,12 +989,13 @@ a{
 .fs-close:hover{
     opacity: 1;
 }
-@media screen and (max-width:400px) {
+@media screen and (max-width:500px) {
     
     .grid{
         width: 100%;
-        max-width: 390px;
+         
         margin: 0 auto;
+        display: none;
     }
     .header{
         background-color: var(--color);
@@ -1494,7 +1495,7 @@ a{
           width: 40px;
           height: 40px;
           position: absolute;
-          top: 30%;
+          top: 45%;
           left: 0;
           transform: translateY(-50%);
           background-color: #2979ff;
@@ -1534,5 +1535,12 @@ a{
         width: 50px;
         text-align: center;
         text-decoration: none;
+    }
+    /* //////////////////// */
+    .content{
+        margin: 0 auto;
+    }
+    .fake-sale{
+        display: none;
     }
 }
