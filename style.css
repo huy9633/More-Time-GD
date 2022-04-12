@@ -1548,4 +1548,7 @@ a{
      .main-content_slide{
          display: block;
      }
+     .alert-dismissible {
+        max-width: 100%;
+    }
 }
