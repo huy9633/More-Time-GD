@@ -105,6 +105,13 @@ $(document).ready(function(){
         breakpoint: 500,
         settings: {
           infinite: true,
+          slidesToShow: 1,
+          slidesToScroll: 1
+        }
+      },
+      {
+        breakpoint: 900,
+        settings: {
           slidesToShow: 2,
           slidesToScroll: 2
         }
