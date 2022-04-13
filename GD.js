@@ -99,9 +99,24 @@ $(document).ready(function(){
     slidesToShow: 3,
     slidesToScroll: 1,
     prevArrow:"<button type='button' class='slick-prev pull-left'><i class='fa fa-angle-left' aria-hidden='true'></i></button>",
-    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>"
+    nextArrow:"<button type='button' class='slick-next pull-right'><i class='fa fa-angle-right' aria-hidden='true'></i></button>",
+    responsive : [
+      {
+        breakpoint: 500,
+        settings: {
+          infinite: true,
+          slidesToShow: 2,
+          slidesToScroll: 2
+        }
+      }
+    ]
   });
 });
+
+
+
+
+
 
 //thongbaodukien 
 var thongbao1 = document.getElementById('main-c1')
