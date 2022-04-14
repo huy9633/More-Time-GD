@@ -1596,7 +1596,7 @@ a{
         display: flex;
         justify-content: space-between;
         width: 200px;
-        margin: 0px !important;
+        margin: 0px;
         padding: 0px !important;
     }
     .nav1{
@@ -1660,6 +1660,65 @@ a{
         visibility: hidden;
     
     }
+    nav{
+        background: white;
+        height: 900px;
+        width: 60%;
+        position: fixed;
+        right: 0;
+        top: 45px;
+        transform: translateX(100%);
+        transition: transform 0.5s ease-in-out;
+        z-index: 3;
+    }
+    .open-nav {
+        transform: translateX(0%);
+    }
+    /* .open-nav .hamburger{
+        transform: rotate(45deg);
+    }
+    .open-nav .hamburger::before {
+        opacity: 0;
+    }
+    .open-nav .hamburger::after {
+        transform: rotate(90deg) translate(-10px);
+    } */
+    .head-t{
+        display: flex;
+        background: url(https://kt.city/static/img-nav-bg.png) no-repeat center / cover;
+        padding: 30px;
+        align-items: center;
+        -webkit-box-align: center;
+        margin-bottom: 15px;
+    }
+    .head-text{
+        font-size: 17px;
+        color: white;
+    }
+    .head-b{
+        display: flex;
+        padding-bottom: 20px;
+        overflow-y: auto;
+        align-items: flex-start;
+        -webkit-box-align: start;
+        flex-direction: column;
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+        width: 250px;
+        
+    }
+    .fa-key{
+        margin-right: 15px;
+        color: #72b8ee;
+    }
+    .fa-headset{
+        color: #72b8ee;
+    }
+    .fa-bars, .fa-clock-rotate-left ,.fa-fire-flame-curved,.fa-headset{
+        margin-right: 15px;
+    }
+
+    /* ????????????????????????? */
     .head-icon{
         margin-left: 15px;
         cursor: pointer;
@@ -1669,15 +1728,39 @@ a{
         height: 40px;
         width: 100px;
     }
+    .nav-item1{
+        width: 90%;
+        padding: 10px 0;
+    }
+    .nav-item1 a{
+        color: #273167;
+        /* align-items: center;
+        justify-content: center;
+        text-align: left; */
+        font-size: 17px;
+        
+    }
+    .signin{
+        background-color: #0d6efd;
+        border-radius: 10px;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        font-size: 18px;
+        padding: 10px;
+        width: 150px;
+        margin: 0 auto ;
+        margin-left: 40px;
+    }
     .nav-item{
         display: flex;
         align-items: center;
         justify-content: center;
         text-align: center;
-       
+        font-size: 17px;
     }
     .nav-item img{
-        width: 40px;
+        width: 60px;
         margin: 10px;
     }
     .text-center{
@@ -1854,13 +1937,13 @@ a{
         align-items: center;
         text-align: center;
     }
-    .list-1 i{
+    .lists-1 i{
         color: rgb(41, 121, 255) !important;
     }
-    .list-2 i{
+    .lists-2 i{
         color: rgb(35, 194, 127) !important;
     }
-    .list-3 i{
+    .lists-3 i{
         color: rgb(237, 28, 36) !important;
     }
     .head-support{
@@ -1881,24 +1964,24 @@ a{
         width: 90px;
         height: 47px;
     }
-    .list-1,.list-2,.list-3{
+    /* .list-1,.list-2,.list-3{
         display: flex;
         align-items: center;
         justify-content: center;
         width: 100%;
         height: 100%;
         
-    }
+    } */
     .alert-dismissible{
         width: 100%;
     }
-    .list-1,.list-2{
+    /* .list-1,.list-2{
         border-right: 1.5px solid #b1cdfc;
     
     }
     .list-1 i,.list-2 i,.list-3 i{
         padding-right: 10px;
-    }
+    } */
     .content{
         background-color: #f8f9ff;
         display: flex;
