@@ -333,3 +333,31 @@ if (doiava) {
       $("#doianh").attr("src",doi_anh[sttrandom]);
     })
 }
+
+//showmenudth
+const nav = document.querySelector("nav");
+const toggle = document.querySelector(".menu");
+
+toggle.addEventListener("click", () => {
+  nav.classList.toggle("open-nav");
+  toggle.classList.toggle("open-nav");
+});
+
+//doiava dth
+var doiava1 = document.getElementById('doianh1');
+var doi_anh1 = new Array ();
+doi_anh1[0] = "https://kt.city/static/avatar/avatar5.jpg"
+doi_anh1[1] = "https://kt.city/static/avatar/avatar6.jpg"
+doi_anh1[2] = "https://kt.city/static/avatar/avatar9.jpg"
+doi_anh1[3] = "https://kt.city/static/avatar/avatar11.jpg"
+doi_anh1[4] = "https://kt.city/static/avatar/avatar2.jpg"
+doi_anh1[5] = "https://kt.city/static/avatar/avatar12.jpg"
+doi_anh1[6] = "https://kt.city/static/avatar/avatar1.jpg"
+doi_anh1[7] = "https://kt.city/static/avatar/avatar3.jpg"
+
+if (doiava1) {
+    doiava1.addEventListener('click', function () {
+      var sttrandom = Math.floor(Math.random() * 8);
+      $("#doianh1").attr("src",doi_anh1[sttrandom]);
+    })
+}
