@@ -47,16 +47,7 @@ ul{
     margin: 0px !important;
     padding: 0px !important;
 }
-.nav{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    text-align: center;
-    font-size: 18px;
-    font-weight: 600;
-    width: 800px;
 
-}
 .head-icon{
     margin-left: 100px;
     cursor: pointer;
@@ -119,6 +110,19 @@ ul{
     padding-right: 67px;
     padding-bottom: 3px;
 }
+.nav1{
+    display: none;
+}
+
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 600;
+    width: 800px;
+}   
 .find{
     position: absolute;
     top: 0%;
@@ -998,7 +1002,7 @@ a{
         width: 100%;
          
         margin: 0 auto;
-        display: none;
+        
     }
     .header{
         background-color: var(--color);
@@ -1561,15 +1565,14 @@ a{
     
     .grid{
         width: 100%;
-         
         margin: 0 auto;
-        display: none;
+        height: 60px;
     }
     .header{
         background-color: var(--color);
         width: 100%;
-        max-width: 390px;
-        height: 100px;
+        
+        height: 60px;
         display: flex;
         align-items: center;
     }
@@ -1579,9 +1582,9 @@ a{
         padding: 12px 0px;
         align-items: center;
         flex-direction: row;
-        width: 390px;
+        width: 100%;
         max-width: 100%;
-        height: auto;
+        height: 60px;
         
     }
     
@@ -1596,18 +1599,27 @@ a{
         margin: 0px !important;
         padding: 0px !important;
     }
+    .nav1{
+        display: block;
+        margin-right: 10px;
+    }
+    #nav{
+        display: none;
+    }
     .nav{
-        display: flex;
+        /* display: flex; */
         justify-content: space-between;
         align-items: center;
         text-align: center;
         font-size: 18px;
         font-weight: 600;
         width: 800px;
+        display: none;
+        visibility: hidden;
     
     }
     .head-icon{
-        margin-left: 100px;
+        margin-left: 15px;
         cursor: pointer;
         display: block;
     }
@@ -1667,16 +1679,21 @@ a{
         padding-left: 20px;
         padding-right: 67px;
         padding-bottom: 3px;
+        display: none;
     }
     .find{
-        position: absolute;
-        top: 0%;
-        left: 80%;
+        margin-right: 0;
+        position: initial;
+        top: 00%;
+        left: 100%;
         width: 60px;
         height: 50px;
         display: flex;
         justify-content: center;
         align-items: center;
+    }
+    .fa-bars{
+        font-size: 20px;
     }
     .search-input:focus{
         background-color: rgba(255, 255, 255, 0);
@@ -2116,15 +2133,11 @@ a{
      .main-content_slide{
          display: block;
      }
+     
      .alert-dismissible {
         max-width: 100%;
     }
-    /* .footer1-t-text{
-        font-size: 5px;
-    }
-    .footer1-t-textbold{
-        font-size: 6px;
-    } */
+    
     .footer1-t-item{
         width: 100%;
     }
