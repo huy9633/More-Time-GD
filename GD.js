@@ -6,7 +6,7 @@ var alertTrigger3 = document.getElementById('liveAlertBtn3')
 var alertTrigger4 = document.getElementById('liveAlertBtn4')
 var alertTrigger5 = document.getElementById('liveAlertBtn5')
 var alertTrigger6 = document.getElementById('liveAlertBtn6')
-// var alertTrigger7 = document.getElementById('liveAlertBtn7')
+var alertTrigger7 = document.getElementById('liveAlertBtn7')
 var alertTrigger8 = document.getElementById('liveAlertBtn8')
 var alertTrigger9 = document.getElementById('liveAlertBtn9')
 var alertTrigger10 = document.getElementById('liveAlertBtn10')
@@ -52,11 +52,11 @@ if (alertTrigger6) {
       alert1('Hệ thống đang cập nhật !', 'success')
     })
 }
-// if (alertTrigger7) {
-//     alertTrigger7.addEventListener('click', function () {
-//       alert1('Hệ thống đang cập nhật !', 'success')
-//     })
-// }
+if (alertTrigger7) {
+    alertTrigger7.addEventListener('click', function () {
+      alert1('Hệ thống đang cập nhật !', 'success')
+    })
+}
 if (alertTrigger8) {
     alertTrigger8.addEventListener('click', function () {
       alert1('Hệ thống đang cập nhật !', 'success')
