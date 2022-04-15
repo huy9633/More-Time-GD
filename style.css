@@ -1671,9 +1671,12 @@ a{
         transition: transform 0.5s ease-in-out;
         z-index: 3;
     }
+
+    
     .open-nav {
         transform: translateX(0%);
     }
+    
     /* .open-nav .hamburger{
         transform: rotate(45deg);
     }
