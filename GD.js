@@ -110,7 +110,7 @@ $(document).ready(function(){
         }
       },
       {
-        breakpoint: 900,
+        breakpoint: 820,
         settings: {
           slidesToShow: 2,
           slidesToScroll: 2
@@ -335,13 +335,50 @@ if (doiava) {
 }
 
 //showmenudth
+
 const nav = document.querySelector("nav");
 const toggle = document.querySelector(".menu");
+const outside = document.querySelector("html");
 
 toggle.addEventListener("click", () => {
   nav.classList.toggle("open-nav");
   toggle.classList.toggle("open-nav");
 });
+
+
+if ($('#e1').has("open-nav")){
+  $('.body').click(function(event){
+    nav.classList.remove("open-nav");
+    toggle.classList.remove("open-nav");
+    toggle.classList.remove("opened");
+  });
+}
+if ($('#e1').has("open-nav")){
+  $('.body-extra').click(function(event){
+    nav.classList.remove("open-nav");
+    toggle.classList.remove("open-nav");
+    toggle.classList.remove("opened");
+  });
+}
+if ($('#e1').has("open-nav")){
+  $('.main-content').click(function(event){
+    nav.classList.remove("open-nav");
+    toggle.classList.remove("open-nav");
+    toggle.classList.remove("opened");
+  });
+}
+if ($('#e1').has("open-nav")){
+  $('.footermt').click(function(event){
+    nav.classList.remove("open-nav");
+    toggle.classList.remove("open-nav");
+    toggle.classList.remove("opened");
+  });
+}
+
+
+  
+
+
 
 //doiava dth
 var doiava1 = document.getElementById('doianh1');
