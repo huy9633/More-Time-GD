@@ -249,15 +249,19 @@ ul{
     justify-content: center;
     align-items: center;
     text-align: center;
+    
 }
 .list-1 i{
     color: rgb(41, 121, 255) !important;
+    margin: 0;
 }
 .list-2 i{
     color: rgb(35, 194, 127) !important;
+    margin: 0;
 }
 .list-3 i{
     color: rgb(237, 28, 36) !important;
+    margin: 0;
 }
 .head-support{
     width: 100px;
