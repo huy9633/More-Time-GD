@@ -1,3 +1,5 @@
+
+
 var alertPlaceholder = document.getElementById('liveAlertPlaceholder')
 var alertTrigger = document.getElementById('liveAlertBtn')
 var alertTrigger1 = document.getElementById('liveAlertBtn1')
@@ -397,4 +399,201 @@ if (doiava1) {
       var sttrandom = Math.floor(Math.random() * 8);
       $("#doianh1").attr("src",doi_anh1[sttrandom]);
     })
+}
+//////////////////
+
+// điện thoại
+
+var add1 = document.getElementById("bt1")
+var add2 = document.getElementById("bt2")
+var add3 = document.getElementById("bt3")
+var add4 = document.getElementById("bt4")
+var add5 = document.getElementById("bt5")
+var add6 = document.getElementById("bt6")
+// ??????????????????????????????????????????????
+
+
+
+
+///////////////////////////////////
+var dangban1 = document.getElementById("bt1")
+var dangban2 = document.getElementById("bt2")
+var dangban3 = document.getElementById("bt3")
+var dangban4 = document.getElementById("bt4")
+var dangban5 = document.getElementById("bt5")
+var dangban6 = document.getElementById("bt6")
+
+
+
+var thongbaodth = window.matchMedia("(min-width: 750px)");
+myFunction(thongbaodth) ;
+thongbaodth.addEventListener(myFunction);
+
+function myFunction(thongbaodth) {
+  if (thongbaodth.matches) { // If media query matches
+    // add1.classList.add("bt01");
+    // add2.classList.add("bt02");
+    // add3.classList.add("bt03");
+    // add4.classList.add("bt04");
+    // add5.classList.add("bt05");
+    // add6.classList.add("bt06");
+    if (dangban1) {
+      dangban1.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+    if (dangban2) {
+      dangban2.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+    if (dangban3) {
+      dangban3.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+    if (dangban4) {
+      dangban4.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+    if (dangban5) {
+      dangban5.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+    if (dangban6) {
+      dangban6.addEventListener('click', function () {
+        swal(
+          'Đang bảo trì!',
+          'Mời bạn quay lại sau ^_^ !',
+          'error'
+        )
+      })
+    }
+
+  } else{
+    if (dangban1) {
+      dangban1.addEventListener('click', function () {
+      $.toast({
+      heading: 'Error',
+      text: 'Đang bảo trì!',
+      icon: 'error',
+      loader: true,
+      loaderBg: '#fff',
+      showHideTransition: 'plain',
+      hideAfter: 3000,
+      position: {
+        left: 10,
+        top: 10
+      }
+    })
+    })
+    }
+    if (dangban2) {
+      dangban2.addEventListener('click', function () {
+      $.toast({
+        heading: 'Error',
+        text: 'Đang bảo trì!',
+        icon: 'error',
+        loader: true,
+        loaderBg: '#fff',
+        showHideTransition: 'plain',
+        hideAfter: 3000,
+        position: {
+          left: 10,
+          top: 10
+      }
+    })
+    })
+    }
+    if (dangban3) {
+      dangban3.addEventListener('click', function () {
+      $.toast({
+      heading: 'Error',
+      text: 'Đang bảo trì!',
+      icon: 'error',
+      loader: true,
+      loaderBg: '#fff',
+      showHideTransition: 'plain',
+      hideAfter: 3000,
+      position: {
+        left: 10,
+        top: 10
+      }
+    })
+    })
+    }
+    if (dangban4) {
+      dangban4.addEventListener('click', function () {
+      $.toast({
+      heading: 'Error',
+      text: 'Đang bảo trì!',
+      icon: 'error',
+      loader: true,
+      loaderBg: '#fff',
+      showHideTransition: 'plain',
+      hideAfter: 3000,
+      position: {
+        left: 10,
+        top: 10
+      }
+    })
+    })
+    }
+    if (dangban5) {
+      dangban5.addEventListener('click', function () {
+      $.toast({
+      heading: 'Error',
+      text: 'Đang bảo trì!',
+      icon: 'error',
+      loader: true,
+      loaderBg: '#fff',
+      showHideTransition: 'plain',
+      hideAfter: 3000,
+      position: {
+        left: 10,
+        top: 10
+      }
+    })
+    })
+    }
+    if (dangban6) {
+      dangban6.addEventListener('click', function () {
+      $.toast({
+      heading: 'Error',
+      text: 'Đang bảo trì!',
+      icon: 'error',
+      loader: true,
+      loaderBg: '#fff',
+      showHideTransition: 'plain',
+      hideAfter: 3000,
+      position: {
+        left: 10,
+        top: 10
+      }
+    })
+    })
+    }
+  }
 }
